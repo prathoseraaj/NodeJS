@@ -11,6 +11,8 @@ const nodeops = async () => {
         console.log('appendFile completed');
         await fsPromise.rename(path.join(__dirname,'files','about.txt'),path.join(__dirname,'files','leodas.txt'));
         console.log('renamed sucessfully');
+        /*await fsPromise.unlink(path.join(__dirname,'files','start.txt'));
+        console.log('Successfully deleted')*/
     }
     catch(err){
         console.error(err);
