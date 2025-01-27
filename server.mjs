@@ -6,3 +6,9 @@ readFile('./files/start.txt', 'utf8', (err, data) => {
   console.log(data); //as we use encoding 
   //console.log(data);
 }); 
+
+//if the file has error we should use process from node
+process.on('uncaughtException', err => {
+  console.error(`There was an uncaught error: ${err}`);
+  process.exit(1);
+});
