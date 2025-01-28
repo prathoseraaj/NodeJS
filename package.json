@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prathoseraaj/NodeJS.git"
+  },
+  "author": "prathoseraaj V",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prathoseraaj/NodeJS/issues"
+  },
+  "homepage": "https://github.com/prathoseraaj/NodeJS#readme",
+  "description": "",
+  "dependencies": { 
+    "date-fns": "^4.1.0"
+  }
+}
+
