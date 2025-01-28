@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node index.js",
+    "dev": "nodemon index"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,11 @@
   },
   "homepage": "https://github.com/prathoseraaj/NodeJS#readme",
   "description": "",
-  "dependencies": { 
-    "date-fns": "^4.1.0"
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^11.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
-
