@@ -19,6 +19,7 @@
   "homepage": "https://github.com/prathoseraaj/NodeJS#readme",
   "description": "",
   "dependencies": {
+    "axios": "^1.7.9",
     "date-fns": "^4.1.0",
     "express": "^4.21.2",
     "uuid": "^11.0.5"
